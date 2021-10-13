@@ -1,0 +1,48 @@
+.header-box{
+    .basic-header {
+        position:relative;
+        background:#fff;
+        padding: 0;
+        padding-right: 20px;
+    }    
+    .currentTitle{
+        float: left;
+        width: 200px;
+        height: 100%;
+        color: #333;
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 20px;
+    }
+    .content{
+        margin-left: 250px;
+        overflow: hidden;
+    }
+    .userName{
+        float: right;
+        height: 100%;
+        line-height: 60px;
+    }
+    .sign_out{
+        float: right;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid #40a9ff;
+        color: #40a9ff;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    .sign_out:hover{
+        opacity: 0.8;
+    }
+    :global{
+        .ant-layout-header{
+            height: 60px;
+            line-height: 60px;
+        }
+    }
+}
